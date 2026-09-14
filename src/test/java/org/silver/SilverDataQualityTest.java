@@ -27,7 +27,7 @@ public class SilverDataQualityTest {
                     new QueryLoader();
 
             String sql = queryLoader.load(
-                    "queries/renner/vendas/silver/duplicate_venda_id.sql"
+                    "queries/renner/silver/duplicate_venda_id.sql"
             );
 
             ResultSet resultSet =
@@ -52,7 +52,7 @@ public class SilverDataQualityTest {
                     new QueryLoader();
 
             String sql = queryLoader.load(
-                    "queries/renner/vendas/silver/null_produto_id.sql"
+                    "queries/renner/silver/null_produto_id.sql"
             );
 
             ResultSet resultSet =
@@ -77,7 +77,7 @@ public class SilverDataQualityTest {
                     new QueryLoader();
 
             String sql = queryLoader.load(
-                    "queries/renner/vendas/silver/invalid_quantidade.sql"
+                    "queries/renner/silver/invalid_quantidade.sql"
             );
 
             ResultSet resultSet =
@@ -102,7 +102,7 @@ public class SilverDataQualityTest {
                     new QueryLoader();
 
             String sql = queryLoader.load(
-                    "queries/renner/vendas/silver/invalid_valor_unitario.sql"
+                    "queries/renner/silver/invalid_valor_unitario.sql"
             );
 
             ResultSet resultSet =
@@ -127,7 +127,7 @@ public class SilverDataQualityTest {
                     new QueryLoader();
 
             String sql = queryLoader.load(
-                    "queries/renner/vendas/silver/invalid_status.sql"
+                    "queries/renner/silver/invalid_status.sql"
             );
 
             ResultSet resultSet =
@@ -152,7 +152,7 @@ public class SilverDataQualityTest {
                     new QueryLoader();
 
             String sql = queryLoader.load(
-                    "queries/renner/vendas/silver/null_data_venda.sql"
+                    "queries/renner/silver/null_data_venda.sql"
             );
 
             ResultSet resultSet =
@@ -177,7 +177,7 @@ public class SilverDataQualityTest {
                     new QueryLoader();
 
             String sql = queryLoader.load(
-                    "queries/renner/vendas/silver/invalid_desconto.sql"
+                    "queries/renner/silver/invalid_desconto.sql"
             );
 
             ResultSet resultSet =
@@ -202,7 +202,7 @@ public class SilverDataQualityTest {
                     new QueryLoader();
 
             String sql = queryLoader.load(
-                    "queries/renner/vendas/silver/invalid_valor_liquido.sql"
+                    "queries/renner/silver/invalid_valor_liquido.sql"
             );
 
             ResultSet resultSet =
@@ -227,7 +227,7 @@ public class SilverDataQualityTest {
                     new QueryLoader();
 
             String sql = queryLoader.load(
-                    "queries/renner/vendas/silver/bronze_silver_reconciliation.sql"
+                    "queries/renner/silver/bronze_silver_reconciliation.sql"
             );
 
             ResultSet resultSet =
